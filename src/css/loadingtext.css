@@ -1,0 +1,171 @@
+/* #loading-text-main-content-container {
+  width: 700px;
+  padding-inline: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@media (max-width: 685px) {
+  #loading-text-main-content-container * {
+    transform: scale(0.94);
+  }
+}
+
+@media (max-width: 630px) {
+  #loading-text-main-content-container * {
+    width: 360px;
+  }
+}
+@media (max-width: 400px) {
+  #loading-text-main-content-container * {
+    width: 310px;
+    transform: scale(0.92);
+  }
+}
+@media (max-width: 357px) {
+  #loading-text-main-content-container {
+    padding-left: 2.1rem !important;
+  }
+}
+
+#loading-text-main-content-text {
+  color: #fafafa;
+}
+
+#intro-react-logo {
+  position: absolute;
+  top: -90px;
+  animation: spin 17s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 685px) {
+  #intro-react-logo {
+    top: -67px !important;
+  }
+} */
+
+#main-loading-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#loading-content-container {
+  max-width: 700px;
+  width: 100%;
+  position: relative;
+}
+
+#loading-text-main-content-text {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  margin-top: 0.9rem;
+  padding-inline: 2.5rem;
+  font-family: selfFont;
+}
+
+#loading-bottom-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.8rem;
+  gap: 4.5rem;
+}
+
+#main-loading-spinner {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 470px) {
+  #loading-bottom-text-container {
+    gap: 3.4rem !important;
+  }
+}
+@media (max-width: 600px) {
+  #loading-bottom-text-container {
+    gap: 2.2rem !important;
+  }
+
+  #loading-text-main-content-text {
+    padding-inline: 1rem !important;
+  }
+}
+
+#loading-btn-container {
+  color: #0d6efd;
+  width: 180px;
+  padding-block: 0.2rem;
+  border: 1px solid #0d6dfdcc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  background-color: #0d6dfd08;
+  font-family: homeFont;
+}
+
+#intro-react-logo {
+  animation: spin 17s infinite linear;
+  margin: 0 auto;
+  display: block;
+  font-size: 47px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,272 @@
+.main-about-me {
+  padding-bottom: 8rem !important;
+}
+
+.main-about-me-title {
+  color: #fff !important;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#georgia-tbilisi-title {
+  animation: zoom-in-out 1s ease;
+  transform-origin: center;
+}
+
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.person-line-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.3rem;
+}
+
+.person-line {
+  box-shadow: 0px 0px 0px 0.1px seashell;
+  height: 2.5rem;
+  animation-name: line-line;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.img-line-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.img-line {
+  width: 6.1rem;
+  box-shadow: 0px 0px 0px 0.1px seashell;
+  transform: translateY(2.6rem);
+  animation-name: line-2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes line-2 {
+  0% {
+    transform: translateY(2.6rem);
+  }
+  50% {
+    transform: translateX(3rem);
+  }
+  100% {
+    transform: translateY(2.6rem);
+  }
+}
+
+.tbilisi-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.tbilisi-img-container img {
+  max-width: 500px;
+  height: 220px;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0px 0px 2.5px #fff;
+  filter: brightness(63%);
+  border-radius: 4px;
+  cursor: pointer;
+
+  background-image: linear-gradient(
+    315deg,
+    #2d231c4f 0%,
+    #081a2b31 74%
+  ) !important;
+}
+
+.tbilisi-img-container img:hover {
+  filter: brightness(70%);
+  transform: scale(1.01);
+  transition: 0.3s ease;
+}
+
+.about-me-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  max-width: 900px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: 0px 0px 2.5px #fff;
+
+  background-image: linear-gradient(
+    315deg,
+    #2d231c4f 0%,
+    #081a2b31 74%
+  ) !important;
+
+  cursor: pointer;
+}
+
+.cards-main-container {
+  background-image: linear-gradient(
+    315deg,
+    #2d231c4f 0%,
+    #081a2b31 74%
+  ) !important;
+}
+
+@media (max-width: 450px) {
+  .about-me-text {
+    padding: 1rem !important;
+  }
+}
+
+.about-me-text p {
+  font-size: 1.04rem !important;
+  color: #fff;
+  font-weight: 100 !important;
+  letter-spacing: 1.3px;
+  line-height: 1.8rem !important;
+  letter-spacing: 1.6px !important;
+}
+
+.about-me-text #d {
+  font-size: 2.7rem !important;
+}
+
+.cards-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem auto;
+  max-width: 900px;
+  padding: 1rem;
+  box-shadow: 0px 0px 2.5px #fff;
+  border-radius: 4px;
+}
+
+@media (max-width: 700px) {
+  .cards-main-container {
+    display: grid;
+    width: 100%;
+    place-content: center;
+    gap: 2.6rem;
+  }
+  .cert-img {
+    max-width: 380px !important;
+    height: 230px !important;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .cert-img {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.cert-img {
+  width: 320px;
+  height: 220px;
+  border-radius: 4px;
+  cursor: pointer;
+  filter: brightness(87%);
+}
+
+.cert-img:hover {
+  transform: scale(1.03);
+  transition: 0.4s ease;
+}
+
+.education-div .card:hover {
+  transform: scale(1.03);
+  transition: 0.4s ease;
+}
+
+.certification-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.certification-title p {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.education-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.education-title p {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.education-outer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  box-shadow: 0px 0px 2.5px #fff;
+  max-width: 970px;
+  width: 100%;
+  padding: 1.5rem;
+
+  background-image: linear-gradient(
+    315deg,
+    #2d231c4f 0%,
+    #081a2b31 74%
+  ) !important;
+}
+
+.education-div .card {
+  filter: brightness(83%);
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  width: 15rem;
+  height: 220px;
+}
+
+@media (max-width: 361px) {
+  .education-div .card .card-text li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+  }
+}
+
+.education-text {
+  color: seashell !important;
+  letter-spacing: 1.1px;
+  font-weight: 200;
+}

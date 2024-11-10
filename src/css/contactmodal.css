@@ -1,0 +1,135 @@
+.modal-footer {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.contact-btn-div  {
+ max-width: 390px;
+ width: 100%;
+ z-index: 100 !important;
+}
+
+
+#contactBtn {
+  font-family: homeFont !important;
+  letter-spacing: 4px !important;
+  font-size: 1.1rem !important;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  #contactBtn {
+    width: 100% !important;
+    max-width: 300px !important;
+    font-size: 0.85rem !important;
+  }
+}
+
+
+
+
+.contact-btn-div .modal-content {
+  background-color: #100e1cf8 !important;
+  background-image: linear-gradient(
+    315deg,
+    #4033274f 0%,
+    #0a233b31 74%
+  ) !important;
+
+  padding-inline: 0.9rem;
+  box-shadow: 0px 0px 1px #ffffff;
+}
+
+.contact-btn-div .contact-btn {
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  /* width: 500px !important; */
+  width: 100% !important;
+  padding-inline: 2rem;
+  font-weight: 600;
+}
+
+
+
+/* @media (max-width: 401px) {
+  .contact-btn-div .contact-btn {
+    font-size: 0.9rem;
+    width: 100%;
+    padding-inline: 0.4rem;
+  }
+} */
+
+@media (max-width: 425px) {
+  .contact-btn-div .modal-content {
+    padding-inline: 0.2rem;
+  }
+}
+
+#contact-main-modal .modal-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+ .close-x {
+  background-color: #35156b;
+  border-radius: 100%;
+  padding: 0.3rem;
+  transition: 0.2s ease;
+  cursor: pointer;
+  position: relative;
+  left: 7px;
+}
+
+ .close-x:hover {
+  background-color: #441c8a;
+  border-radius: 100%;
+  padding: 0.3rem;
+}
+
+.contact-btn-div .close-x {
+  cursor: pointer;
+}
+
+#contact-items {
+  letter-spacing: 1px;
+  color: #fff !important;
+  font-size: 0.9rem;
+  border: none !important;
+  outline: none !important;
+}
+
+#contact-modal-dialog {
+  box-shadow: 0 1px 600px #3e02af4e;
+  max-width: 600px;
+  width: 100%;
+}
+
+.contact-btn-div .contact-btn {
+  background-image: linear-gradient(
+    315deg,
+    #4033274f 0%,
+    #0a233b31 74%
+  ) !important;
+  width: 95% !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.9rem !important;
+  padding-block: 0.7rem;
+}
+
+.contact-btn-div-for {
+  max-width: 650px !important;
+  width: 100% !important;
+
+}
+
+.contact-modal-main-div {
+  background-color: #110f18f9 !important;
+  letter-spacing: 1px;
+  color: #fff !important;
+  background-image: linear-gradient(
+    315deg,
+    #4033274f 0%,
+    #0a233b31 74%
+  ) !important;
+}
